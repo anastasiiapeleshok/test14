@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<ns3:modelConfig xsi:type="ns3:ModelConfig" folder="" pauseCalculations="false" entityCode="1" loadPath="test2clone" entityName="test2clone" version="37" name="test2clone" lastUpdated="2025-01-28T14:53:12.258+02:00" lastUpdatedBy="admin" id="admin:MODEL:test13" xmlns:ns6="http://www.modelshop.com/services/account/types" xmlns:ns5="http://www.modelshop.com/datacore/message/types" xmlns:ns8="http://www.modelshop.com/datacore/generator/types" xmlns:ns7="http://www.modelshop.com/datacore/repository/types" xmlns:ns2="http://www.modelshop.com/datacore/view/types" xmlns:ns4="http://www.modelshop.com/services/model/types" xmlns:ns3="http://www.modelshop.com/model/model/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <datalists entityCode="4" entityName="Price Target" version="37" name="Price Target" created="2025-01-28T14:53:12.258+02:00" createdBy="admin" lastUpdated="2025-01-28T14:53:12.258+02:00" lastUpdatedBy="admin" id="Price Target">
+        <dataFields type="text" fieldCode="100" rawType="java.lang.String" allowNull="true" name="Symbol" initialized="true" id="Symbol"/>
+        <dataFields type="decimal" format="0.00" fieldCode="101" rawType="java.math.BigDecimal" allowNull="true" name="Price Target" initialized="true" id="Price Target"/>
+        <dataFields type="decimal" format="0.00%" fieldCode="102" rawType="java.math.BigDecimal" allowNull="true" name="column3" initialized="true" id="column3"/>
+        <dataFields type="text" fieldCode="103" readOnly="true" rawType="java.lang.String" name="sourceName" description="Source name" initialized="true" id="sourceName">
+            <defaultValue source="'Manual Entry'"/>
+        </dataFields>
+        <dataFields type="integer" fieldCode="104" readOnly="true" rawType="java.lang.Long" name="lineNumber" description="Source line number" initialized="true" id="lineNumber">
+            <defaultValue source="id"/>
+        </dataFields>
+    </datalists>
+    <datalists entityCode="2" entityName="Sector Outlook" version="37" name="Sector Outlook" created="2025-01-28T14:53:12.258+02:00" createdBy="admin" lastUpdated="2025-01-28T14:53:12.258+02:00" lastUpdatedBy="admin" id="Sector Outlook">
+        <dataFields type="text" fieldCode="100" rawType="java.lang.String" allowNull="true" name="Sector" initialized="true" id="Sector"/>
+        <dataFields type="text" fieldCode="101" rawType="java.lang.String" allowNull="true" name="Outlook" initialized="true" id="Outlook"/>
+        <dataFields type="text" fieldCode="102" readOnly="true" rawType="java.lang.String" name="sourceName" description="Source name" initialized="true" id="sourceName">
+            <defaultValue source="'Manual Entry'"/>
+        </dataFields>
+        <dataFields type="integer" fieldCode="103" readOnly="true" rawType="java.lang.Long" name="lineNumber" description="Source line number" initialized="true" id="lineNumber">
+            <defaultValue source="id"/>
+        </dataFields>
+    </datalists>
+    <datalists entityCode="5" entityName="Strategy" version="37" name="Strategy" created="2025-01-28T14:53:12.258+02:00" createdBy="admin" lastUpdated="2025-01-28T14:53:12.258+02:00" lastUpdatedBy="admin" id="Strategy">
+        <dataFields type="text" fieldCode="100" rawType="java.lang.String" allowNull="true" name="Name" initialized="true" id="Name"/>
+        <dataFields type="integer" fieldCode="101" rawType="java.lang.Long" allowNull="true" name="Price to Earnings" initialized="true" id="Price to Earnings"/>
+        <dataFields type="decimal" format="0.00" fieldCode="102" rawType="java.math.BigDecimal" allowNull="true" name="Price to Book" initialized="true" id="Price to Book"/>
+        <dataFields type="decimal" format="0.00%" fieldCode="103" rawType="java.math.BigDecimal" allowNull="true" name="Dividend Yield" initialized="true" id="Dividend Yield"/>
+        <dataFields type="decimal" format="0%" fieldCode="104" rawType="java.math.BigDecimal" allowNull="true" name="Expected Return" initialized="true" id="Expected Return"/>
+        <dataFields type="text" fieldCode="105" readOnly="true" rawType="java.lang.String" name="sourceName" description="Source name" initialized="true" id="sourceName">
+            <defaultValue source="'Manual Entry'"/>
+        </dataFields>
+        <dataFields type="integer" fieldCode="106" readOnly="true" rawType="java.lang.Long" name="lineNumber" description="Source line number" initialized="true" id="lineNumber">
+            <defaultValue source="id"/>
+        </dataFields>
+    </datalists>
+    <datalists entityCode="6" entityName="Datalist1" version="37" name="Datalist1" description="" created="2025-01-28T14:53:12.258+02:00" createdBy="admin" lastUpdated="2025-01-28T14:53:12.258+02:00" lastUpdatedBy="admin" id="Datalist1"/>
+    <datalists entityCode="7" entityName="Datalist2" version="37" name="Datalist2" description="" created="2025-01-28T14:53:12.258+02:00" createdBy="admin" lastUpdated="2025-01-28T14:53:12.258+02:00" lastUpdatedBy="admin" id="Datalist2"/>
+    <datalists entityCode="8" entityName="Datalist3" version="37" name="Datalist3" description="" created="2025-01-28T14:53:12.258+02:00" createdBy="admin" lastUpdated="2025-01-28T14:53:12.258+02:00" lastUpdatedBy="admin" id="Datalist3"/>
+    <datalists entityCode="1118" entityName="Datalist4" version="44" name="Datalist4" description="" created="2025-01-30T17:37:49.440+02:00" createdBy="admin" lastUpdated="2025-01-30T17:37:49.440+02:00" lastUpdatedBy="admin" id="Datalist4"/>
+    <views allColumns="true" default="true" modelView="true" entityName="test2clone" name="test2clone" description="Default view for list test13" id="test2clone"/>
+    <views allColumns="true" default="true" entityName="Price Target" name="Price Target" description="Default view for list Price Target" id="Price Target"/>
+    <views allColumns="true" default="true" entityName="Sector Outlook" name="Sector Outlook" description="Default view for list Sector Outlook" id="Sector Outlook"/>
+    <views allColumns="true" default="true" entityName="Strategy" name="Strategy" description="Default view for list Strategy" id="Strategy"/>
+    <views allColumns="true" default="true" entityName="Datalist1" name="Datalist1" description="Default view for list Datalist1" id="Datalist1"/>
+    <views allColumns="true" default="true" entityName="Datalist2" name="Datalist2" description="Default view for list Datalist2" id="Datalist2"/>
+    <views allColumns="true" default="true" entityName="Datalist4" name="Datalist4" description="Default view for list Datalist4" id="Datalist4"/>
+    <views allColumns="true" default="true" entityName="Datalist3" name="Datalist3" description="Default view for list Datalist3" id="Datalist3"/>
+    <connectors layoutDetected="true" entityName="Price Target" version="25" name="Price Target" created="2025-01-28T14:45:06.814+02:00" createdBy="admin" lastUpdated="2025-01-28T14:45:06.814+02:00" lastUpdatedBy="admin" id="Price Target">
+        <connectorFields columnIndex="0" ignore="false" mapField="Symbol" type="text" rawType="String" allowNull="true" name="Symbol" id="Symbol"/>
+        <connectorFields columnIndex="1" ignore="false" mapField="Price Target" type="decimal" format="0.00" rawType="BigDecimal" allowNull="true" name="Price Target" id="Price Target"/>
+        <connectorFields columnIndex="2" ignore="false" mapField="column3" type="decimal" format="0.00%" rawType="BigDecimal" allowNull="true" name="column3" id="column3"/>
+        <connectorFields mapField="sourceName" type="text" readOnly="true" rawType="String" name="sourceName" description="Source name" id="sourceName"/>
+        <connectorFields mapField="lineNumber" type="integer" readOnly="true" rawType="Long" name="lineNumber" description="Source line number" id="lineNumber"/>
+        <dataSource connectorUrl="Stock Tutorial.xlsx">
+            <fileSource>
+                <dataSourceRefs>Stock Tutorial.xlsx</dataSourceRefs>
+            </fileSource>
+            <loadFilter/>
+        </dataSource>
+        <mediaConfig connectorMediaType="excel">
+            <excelMedia>
+                <component componentType="excelworksheet" componentId="rId2" componentName="Price Target" displayName="Price Target"/>
+            </excelMedia>
+        </mediaConfig>
+    </connectors>
+    <connectors layoutDetected="true" entityName="Sector Outlook" version="25" name="Sector Outlook" created="2025-01-28T14:45:06.817+02:00" createdBy="admin" lastUpdated="2025-01-28T14:45:06.817+02:00" lastUpdatedBy="admin" id="Sector Outlook">
+        <connectorFields columnIndex="0" ignore="false" mapField="Sector" type="text" rawType="String" allowNull="true" name="Sector" id="Sector"/>
+        <connectorFields columnIndex="1" ignore="false" mapField="Outlook" type="text" rawType="String" allowNull="true" name="Outlook" id="Outlook"/>
+        <connectorFields mapField="sourceName" type="text" readOnly="true" rawType="String" name="sourceName" description="Source name" id="sourceName"/>
+        <connectorFields mapField="lineNumber" type="integer" readOnly="true" rawType="Long" name="lineNumber" description="Source line number" id="lineNumber"/>
+        <dataSource connectorUrl="Stock Tutorial.xlsx">
+            <fileSource>
+                <dataSourceRefs>Stock Tutorial.xlsx</dataSourceRefs>
+            </fileSource>
+            <loadFilter/>
+        </dataSource>
+        <mediaConfig connectorMediaType="excel">
+            <excelMedia>
+                <component componentType="excelworksheet" componentId="rId3" componentName="Sector Outlook" displayName="Sector Outlook"/>
+            </excelMedia>
+        </mediaConfig>
+    </connectors>
+    <connectors layoutDetected="true" entityName="Strategy" version="25" name="Strategy" created="2025-01-28T14:45:06.818+02:00" createdBy="admin" lastUpdated="2025-01-28T14:45:06.818+02:00" lastUpdatedBy="admin" id="Strategy">
+        <connectorFields columnIndex="0" ignore="false" mapField="Name" type="text" rawType="String" allowNull="true" name="Name" id="Name"/>
+        <connectorFields columnIndex="1" ignore="false" mapField="Price to Earnings" type="integer" rawType="Long" allowNull="true" name="Price to Earnings" id="Price to Earnings"/>
+        <connectorFields columnIndex="2" ignore="false" mapField="Price to Book" type="decimal" format="0.00" rawType="BigDecimal" allowNull="true" name="Price to Book" id="Price to Book"/>
+        <connectorFields columnIndex="3" ignore="false" mapField="Dividend Yield" type="decimal" format="0.00%" rawType="BigDecimal" allowNull="true" name="Dividend Yield" id="Dividend Yield"/>
+        <connectorFields columnIndex="4" ignore="false" mapField="Expected Return" type="decimal" format="0%" rawType="BigDecimal" allowNull="true" name="Expected Return" id="Expected Return"/>
+        <connectorFields mapField="sourceName" type="text" readOnly="true" rawType="String" name="sourceName" description="Source name" id="sourceName"/>
+        <connectorFields mapField="lineNumber" type="integer" readOnly="true" rawType="Long" name="lineNumber" description="Source line number" id="lineNumber"/>
+        <dataSource connectorUrl="Stock Tutorial.xlsx">
+            <fileSource>
+                <dataSourceRefs>Stock Tutorial.xlsx</dataSourceRefs>
+            </fileSource>
+            <loadFilter/>
+        </dataSource>
+        <mediaConfig connectorMediaType="excel">
+            <excelMedia>
+                <component componentType="excelworksheet" componentId="rId4" componentName="Strategy" displayName="Strategy"/>
+            </excelMedia>
+        </mediaConfig>
+    </connectors>
+    <extra name="ModelCanvasCoordinates" description="Coordinates for ModelCanvasCoordinates" id="ModelCanvasCoordinates">
+        <body>{"DATALIST:Stock Fundamental":{"x":44,"y":83},"CONNECTOR:Stock Fundamental":{"x":39,"y":186},"CONNECTOR:Price Target":{"x":-512,"y":232},"CONNECTOR:Strategy":{"x":595,"y":156},"DATALIST:Price Target":{"x":-489,"y":132},"DATALIST:Strategy":{"x":597,"y":54},"CONNECTOR:Sector Outlook":{"x":-896,"y":-219},"DATALIST:Sector Outlook":{"x":-951,"y":-134},"DATALIST:Datalist1":{"x":1025,"y":-83},"DATALIST:Datalist2":{"x":-1431,"y":44},"DATALIST:Datalist3":{"x":1452,"y":-55}}</body>
+    </extra>
+</ns3:modelConfig>
