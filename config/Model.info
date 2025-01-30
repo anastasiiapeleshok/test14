@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
 <ns3:modelInfo xsi:type="ns3:ModelInfo" modelshopVersion="3.1" buildNumber="4729" modelConfigVersion="13" owner="admin" folder="" path="test2clone" gitServerName="gitHubServer" gitRepositoryName="test14" gitBranch="main" loadPath="test2clone" version="37" name="test2clone" lastUpdated="2025-01-28T14:53:12.258+02:00" lastUpdatedBy="admin" id="admin:MODEL:test13" xmlns:ns6="http://www.modelshop.com/services/account/types" xmlns:ns5="http://www.modelshop.com/datacore/message/types" xmlns:ns8="http://www.modelshop.com/datacore/generator/types" xmlns:ns7="http://www.modelshop.com/datacore/repository/types" xmlns:ns2="http://www.modelshop.com/datacore/view/types" xmlns:ns4="http://www.modelshop.com/services/model/types" xmlns:ns3="http://www.modelshop.com/model/model/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelStatistics name="test2clone" owner="admin" version="9" openHours="0.15" modelUrl="http://localhost:8080/modelshop/index.jsp#model=admin:MODEL:test2clone" lastUsedHours="0.15" activeUsers="1" memoryUseMB="0" cpuUsagePercent="0.0" id="test2clone">
-        <modelAccess userName="admin" lastAccessed="2025-01-30T17:27:40.899+02:00" accessCount="1" accessMinutes="0"/>
+        <modelAccess userName="admin" lastAccessed="2025-01-30T15:27:40.000Z" accessCount="1" accessMinutes="0"/>
     </modelStatistics>
 </ns3:modelInfo>

@@ -38,6 +38,7 @@
     <datalists entityCode="7" entityName="Datalist2" version="37" name="Datalist2" description="" created="2025-01-28T14:53:12.258+02:00" createdBy="admin" lastUpdated="2025-01-28T14:53:12.258+02:00" lastUpdatedBy="admin" id="Datalist2"/>
     <datalists entityCode="8" entityName="Datalist3" version="37" name="Datalist3" description="" created="2025-01-28T14:53:12.258+02:00" createdBy="admin" lastUpdated="2025-01-28T14:53:12.258+02:00" lastUpdatedBy="admin" id="Datalist3"/>
     <datalists entityCode="1118" entityName="Datalist4" version="44" name="Datalist4" description="" created="2025-01-30T17:37:49.440+02:00" createdBy="admin" lastUpdated="2025-01-30T17:37:49.440+02:00" lastUpdatedBy="admin" id="Datalist4"/>
+    <datalists entityCode="1119" entityName="Datalist5" version="51" name="Datalist5" description="" created="2025-01-30T17:38:45.363+02:00" createdBy="admin" lastUpdated="2025-01-30T17:38:45.363+02:00" lastUpdatedBy="admin" id="Datalist5"/>
     <views allColumns="true" default="true" modelView="true" entityName="test2clone" name="test2clone" description="Default view for list test13" id="test2clone"/>
     <views allColumns="true" default="true" entityName="Price Target" name="Price Target" description="Default view for list Price Target" id="Price Target"/>
     <views allColumns="true" default="true" entityName="Sector Outlook" name="Sector Outlook" description="Default view for list Sector Outlook" id="Sector Outlook"/>
@@ -46,6 +47,7 @@
     <views allColumns="true" default="true" entityName="Datalist2" name="Datalist2" description="Default view for list Datalist2" id="Datalist2"/>
     <views allColumns="true" default="true" entityName="Datalist4" name="Datalist4" description="Default view for list Datalist4" id="Datalist4"/>
     <views allColumns="true" default="true" entityName="Datalist3" name="Datalist3" description="Default view for list Datalist3" id="Datalist3"/>
+    <views allColumns="true" default="true" entityName="Datalist5" name="Datalist5" description="Default view for list Datalist5" id="Datalist5"/>
     <connectors layoutDetected="true" entityName="Price Target" version="25" name="Price Target" created="2025-01-28T14:45:06.814+02:00" createdBy="admin" lastUpdated="2025-01-28T14:45:06.814+02:00" lastUpdatedBy="admin" id="Price Target">
         <connectorFields columnIndex="0" ignore="false" mapField="Symbol" type="text" rawType="String" allowNull="true" name="Symbol" id="Symbol"/>
         <connectorFields columnIndex="1" ignore="false" mapField="Price Target" type="decimal" format="0.00" rawType="BigDecimal" allowNull="true" name="Price Target" id="Price Target"/>
